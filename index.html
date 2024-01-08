@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="fashion.css">
+    <link rel="stylesheet" href="fashion.css?v=4">
 
 </head>
 
@@ -53,15 +53,15 @@
     </div>
 
 
-    <section style="background-color: rgb(255, 154, 2);">
+    <section class="beginning">
 
         <div class="container col-xxl-8 px-4 py-4">
 
             <div class="row flex-lg-row-reverse align-items-center g-5 py-4">
 
-                <div class="col-10 col-sm-8 col-lg-6">
+                <div class="col-10 col-sm-8 col-lg-6" class="sub">
                     <img src="images/bightyello runway nobg.png" class="d-block mx-lg-auto img-fluid"
-                        alt="Bootstrap Themes" width="800" height="600" loading="lazy" style="width: 90%;">
+                        alt="Bootstrap Themes" loading="lazy">
                 </div>
 
                 <div class="col-lg-6">
@@ -87,6 +87,7 @@
         </div>
     </section>
 
+
     <section>
         <div style="padding-top: 50px; text-align: center; padding-bottom: 20px;">
             <h2>Explore the Latest Trends</h2>
@@ -102,18 +103,12 @@
         <div class="container marketing">
 
             <div class="row">
+
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" heigt="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" img="images/street fashion.png"
-                        aria-label="placeholder: 140x140" preserveAspectRatio="xMidYMidslice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="images/street fashion.png" filter="blur(5px)"></rect>
 
-                        <text x="50%" y="50%" fill="images/street fashion.png" filter="blur(10px)"
-                            dy=".3em">140x140</text>
-
-                        <image href="images/street fashion.png" width="100%" height="100%" object-fit="cover" />
-                    </svg>
+                    <div class="circular-placeholder" style="align-items: center;">
+                        <img src="images/shopping bags.jpeg" alt="Cat street fashion">
+                    </div>
 
                     <h2 class="fw-normal">Elevated Essentials:</h2>
                     <p>Effortless style for everyday wear</p>
@@ -123,17 +118,9 @@
                 </div>
 
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" heigt="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="placeholder: 140x140"
-                        preserveAspectRatio="xMidYMidslice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="images/runway coat.png" backdrop-filter="blur(5px)">
-                        </rect>
-
-                        <text x="50%" y="50%" fill="runway coat.png" filter="blur(5px)" dy=".3em">140x140</text>
-
-                        <image href="images/runway coat.png" width="100%" height="100%" object-fit="cover" />
-                    </svg>
+                    <div class="circular-placeholder">
+                        <img src="images/suit on the streets.jpeg" alt="Cat street fashion">
+                    </div>
 
 
                     <h2 class="fw-normal">Bold Vibrant Prints:</h2>
@@ -190,6 +177,7 @@
                     </div>
                 </div>
 
+
                 <div class="col">
                     <div class="card card-cover h-110 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(images/dapper.jpeg); background-size: cover;
                     background-repeat: no-repeat;
@@ -230,16 +218,23 @@
 
     <div class="row featurette" style="padding-left: 80px; padding-right: 80px;">
         <div class="col-md-7 order-md-2" style="justify-content: center; padding-top: 100px;">
-          <h2 class="featurette-heading fw-normal lh-1">Experience the <span style="text-transform:uppercase; font-weight: bold;">Kunkumula!</span> Difference: <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">At Kukumula!, we believe fashion is a form of self-expression. Our commitment to
-            quality, sustainability, and inclusivity sets us apart. Join us in celebrating individuality and
-            embracing the beauty of diversity.</p>
+            <h2 class="featurette-heading fw-normal lh-1">Experience the <span
+                    style="text-transform:uppercase; font-weight: bold;">Kunkumula!</span> Difference: <span
+                    class="text-muted">See for yourself.</span></h2>
+            <p class="lead">At Kukumula!, we believe fashion is a form of self-expression. Our commitment to
+                quality, sustainability, and inclusivity sets us apart. Join us in celebrating individuality and
+                embracing the beauty of diversity.</p>
         </div>
         <div class="col-md-5 order-md-1">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-            <image href="images/business cat.jpeg" width="100%" height="100%" object-fit="fill" />
-        </svg>
-  
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa"
+                    dy=".3em">500x500</text>
+                <image href="images/business cat.jpeg" width="100%" height="100%" object-fit="fill" />
+            </svg>
+
         </div>
     </div>
 
@@ -250,7 +245,8 @@
 
             <div class="col-md-6">
 
-                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
 
                     <div class="col p-4 d-flex flex-column position-static">
                         <strong class="d-inline-block mb-2 text-primary">New</strong>
@@ -267,10 +263,14 @@
                         <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg"
                             role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
                             focusable="false">
+
                             <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#FD9004"></rect><text x="50%" y="50%" fill="#eceeef"
-                                dy=".3em">Thumbnail</text>
-                                <image href="images/business white.png" width="100%" height="140%" object-fit="fill" />
+
+                            <rect width="100%" height="100%" fill="#FD9004"></rect>
+
+                            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+
+                            <image href="images/business white.png" width="100%" height="140%" object-fit="fill" />
                         </svg>
 
                     </div>
@@ -285,17 +285,22 @@
                         <strong class="d-inline-block mb-2 text-success">Design</strong>
                         <h3 class="mb-0">Styling Services</h3>
                         <div class="mb-1 text-muted">Dec 19</div>
-                        <p class="mb-auto">Discover personalized styling services to help you curate a wardrobe that reflects your unique personality. Connect with our expert stylists for a one-of-a-kind fashion experience.</p>
+                        <p class="mb-auto">Discover personalized styling services to help you curate a wardrobe that
+                            reflects your unique personality. Connect with our expert stylists for a one-of-a-kind
+                            fashion experience.</p>
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
 
                     <div class="col-auto d-none d-lg-block">
 
-                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg"
+                            role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                            focusable="false">
                             <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#FD9004"></rect>
+                            <rect width="100%" height="100%" fill="#FD9004"></rect>
                             <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-                            <image href="images/bright yellow runway.png" width="100%" height="140%" object-fit="fill"/>
+                            <image href="images/bright yellow runway.png" width="100%" height="140%"
+                                object-fit="fill" />
                         </svg>
 
                     </div>
@@ -310,7 +315,8 @@
             <div class="py-5">
                 <h1 class="display-5 fw-bold text-white">Style Challenges and Giveaways</h1>
                 <div class="col-lg-6 mx-auto">
-                    <p class="fs-5 mb-4">Participate in our monthly style challenges and stand a chance to win exclusive giveaways. Join the conversation and showcase your unique fashion journey.</p>
+                    <p class="fs-5 mb-4">Participate in our monthly style challenges and stand a chance to win exclusive
+                        giveaways. Join the conversation and showcase your unique fashion journey.</p>
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                         <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Visit
                             Shop</button>
@@ -324,50 +330,59 @@
     </section>
 
 
-    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top" style="padding-left: 80px; padding-right: 80px;">
-        <div class="col mb-3">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"
+        style="padding-left: 80px; padding-right: 80px;">
+        <div class="col mb-3 ">
             <a href="#" class="d-flex align-items-center col-md-3 mb-2 mb-md-0">
-                <img style="width: 270%; height: auto;" src="images/KUNKUMULA LOGO.png" alt="">
+                <img src="images/KUNKUMULA LOGO.png" alt="">
             </a>
-          <p class="text-muted">©Kunkumula! 2023. All Rights Reserved.</p>
+            <p class="text-muted">©Kunkumula! 2023. All Rights Reserved.</p>
         </div>
-    
+
         <div class="col mb-3">
-    
+
         </div>
-    
+
         <div class="col mb-3">
-          <h5>Learn More</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-          </ul>
+            <h5>Learn More</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
         </div>
-    
+
         <div class="col mb-3">
-          <h5>Follow Us</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Twitter</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Facebook</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">LinkedIn</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Instagram</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pinterest</a></li>
-          </ul>
+            <h5>Follow Us</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Twitter</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Facebook</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">LinkedIn</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Instagram</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pinterest</a></li>
+            </ul>
         </div>
-    
+
         <div class="col mb-3">
-          <h5>More:</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Careers</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">New Releases</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Previous Issues</a></li>
-            
-          </ul>
+            <h5>More:</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Careers</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">New Releases</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Previous Issues</a></li>
+
+            </ul>
         </div>
-      </footer>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+    </script>
 
 </body>
 
